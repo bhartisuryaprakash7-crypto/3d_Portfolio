@@ -1,11 +1,11 @@
 export const profile = {
   name: 'Surya Prakash Bharti',
-  photo: '/profile.jpeg',
+  photo: `${import.meta.env.BASE_URL}profile.jpeg`,
   role: 'Creative Developer',
   tagline: 'I build interfaces that feel like places, not pages.',
   location: 'Gorakhpur, India',
   email: 'bhartisuryaprakash7@gmail.com',
-  resumeUrl: 'resume.pdf',
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
   social: [
     { label: 'GitHub', href: 'https://github.com/bhartisuryaprakash7-crypto', handle: '@SuryaPrakash' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/surya-prakash-bharti-43a93b3a1/', handle: '/insuryaprakash' },
