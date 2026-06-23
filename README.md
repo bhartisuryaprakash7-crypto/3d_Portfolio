@@ -1,16 +1,87 @@
-# React + Vite
+# 🚀 3D Portfolio (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **3D interactive portfolio website** built using React, Vite, and Three.js ecosystem. This project showcases my skills, projects, and creativity with smooth animations and immersive 3D visuals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Live Demo
 
-## React Compiler
+👉 https://bhartisuryaprakash7-crypto.github.io/3d_Portfolio/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Home Page
+![Home](./screenshots/Home.png)
+
+---
+
+## 📌 Features
+
+- 🎨 Interactive 3D UI/UX
+- ⚡ Fast performance with Vite
+- 🧩 Smooth animations using Framer Motion
+- 🌐 Fully responsive design (Mobile + Desktop)
+- 🧠 Component-based architecture
+- 🎮 Three.js / React Three Fiber integration
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Vite  
+- **3D Graphics:** Three.js / React Three Fiber / Drei  
+- **Animations:** Framer Motion  
+- **Styling:** CSS / Tailwind CSS  
+- **Deployment:** GitHub Pages / Vercel  
+
+---
+
+## 📂 Project Structure
+src/
+│
+├── assets/ # Images, models, textures
+├── components/ # Reusable UI components
+├── pages/ # Portfolio sections
+├── models/ # 3D models (GLTF/GLB)
+├── hooks/ # Custom hooks
+├── styles/ # CSS files
+└── App.jsx
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://bhartisuryaprakash7-crypto.github.io/3d_Portfolio/
+2. Install dependencies
+npm install
+3. Run development server
+npm run dev
+4. Build for production
+npm run build
+🌍 Deployment (GitHub Pages)
+
+In vite.config.js:
+
+base: "/3d_Portfolio/",
+
+Then:
+
+npm run deploy
+🎯 Purpose
+
+This project is built to showcase:
+
+My frontend development skills
+3D web development ability
+UI/UX design sense
+Real-world project structuring
+📬 Contact
+📧 Email: bhartisuryaprakash7@gmail.com
+💻 GitHub: https://github.com/bhartisuryaprakash7-crypto
+🔗 LinkedIn: https://www.linkedin.com/in/surya-prakash-bharti-43a93b3a1/
+👨‍💻 Author
+Surya Prakash Bharti
