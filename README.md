@@ -13,7 +13,7 @@ A modern **3D interactive portfolio website** built using React, Vite, and Three
 ## 📸 Screenshots
 
 ### Home Page
-![Portfolio Home](Home.png)
+![Portfolio About](About.png)
 
 ---
 
