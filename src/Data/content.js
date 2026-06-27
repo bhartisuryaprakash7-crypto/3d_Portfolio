@@ -16,9 +16,8 @@ export const navItems = [
   { id: 'intro', label: 'Index' },
   { id: 'skills', label: 'skills' },
   { id: 'projects', label: 'Projects' },
-   { id: 'contact', label: 'Contact' },
+  { id: 'contact', label: 'Contact' },
   { id: 'collaboration', label: 'Team' }
- 
 ]
 
 export const skillGroups = [
@@ -51,7 +50,7 @@ export const skillGroups = [
     note: 'What holds it up',
     skills: [
       { name: 'Node.js', level: 84 },
-      { name: 'Express,js', level: 76 },
+      { name: 'Express.js', level: 76 },
       { name: 'MongoDB', level: 70 },
       { name: 'MySql', level: 68 }
     ]
@@ -83,14 +82,14 @@ export const projects = [
     color: '#c33823',
     links: { live: 'https://reactjs-alpha-ruby.vercel.app', code: 'https://github.com/bhartisuryaprakash7-crypto/Reactjs' }
   },
-    {
+  {
     id: 'p3',
     index: 'C',
     title: 'EventSphere',
     year: '2026',
     description:
       'EventSphere is a web-based College Event Management System designed to streamline and automate the process of organizing, promoting, and managing campus events. The system serves as a centralized platform connecting college administrators, faculty, student coordinators, and attendees. It replaces traditional, manual event planning with digital solutions, featuring online registration, automated ticket/pass generation, real-time schedule tracking, and budget management. EventSphere ensures smooth coordination and enhances student engagement across all cultural, technical, and sports festivals.',
-    role: ' Frontend Developer',
+    role: 'Frontend Developer',
     stack: ['HTML', 'CSS', 'React', 'Vite'],
     color: '#c33823',
     links: { live: 'https://eventsphere-roan.vercel.app/' }
@@ -104,6 +103,10 @@ export const collaborations = [
     team: '4 developers, 1-week sprint',
     contribution:
       'Contributed to the development of a full-stack event management platform by collaborating with teammates on frontend, backend, and database integration. Participated in feature planning, implementation, testing, and deployment to ensure timely project delivery',
-    outcomes: ['Developed responsive user interfaces using React.js', 'Collaborated through Git & GitHub for version control', 'Assisted in MongoDB database design and implementation']
+    outcomes: [
+      'Developed responsive user interfaces using React.js',
+      'Collaborated through Git & GitHub for version control',
+      'Assisted in MongoDB database design and implementation'
+    ]
   }
 ]
