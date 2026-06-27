@@ -83,6 +83,18 @@ export const projects = [
     color: '#c33823',
     links: { live: 'https://reactjs-alpha-ruby.vercel.app', code: 'https://github.com/bhartisuryaprakash7-crypto/Reactjs' }
   },
+    {
+    id: 'p3',
+    index: 'C',
+    title: 'EventSphere',
+    year: '2026',
+    description:
+      'EventSphere is a web-based College Event Management System designed to streamline and automate the process of organizing, promoting, and managing campus events. The system serves as a centralized platform connecting college administrators, faculty, student coordinators, and attendees. It replaces traditional, manual event planning with digital solutions, featuring online registration, automated ticket/pass generation, real-time schedule tracking, and budget management. EventSphere ensures smooth coordination and enhances student engagement across all cultural, technical, and sports festivals.',
+    role: ' Frontend Developer',
+    stack: ['HTML', 'CSS', 'React', 'Vite'],
+    color: '#c33823',
+    links: { live: 'https://1drv.ms/p/c/611D6EE53D0B1F0C/IQDR2vaSj_LhRLiO441loTazASgiG_HQvqhgySVRlAvHmvU?e=phhsi5' }
+  },
 ]
 
 export const collaborations = [
