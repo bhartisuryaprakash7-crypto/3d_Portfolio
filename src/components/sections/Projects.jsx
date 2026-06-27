@@ -26,7 +26,7 @@ export default function Projects() {
           viewport={{ once: true, margin: '-15%' }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
         >
-          Two projects, each one a different argument about how interfaces should feel.
+          Three projects, each one a different argument about how interfaces should feel.
         </motion.h2>
 
         <div className="project-list" role="list">
