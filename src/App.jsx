@@ -9,7 +9,7 @@ import Collaboration from './components/sections/Collaboration.jsx'
 import Contact from './components/sections/Contact.jsx'
 import { useActiveSection } from './hooks/useActiveSection.js'
 import { usePrefersReducedMotion, useMediaQuery } from './hooks/useMediaQuery.js'
-import { navItems } from './data/content.js'
+import { navItems } from './Data/content.js'
 
 const sectionIds = navItems.map((n) => n.id)
 
