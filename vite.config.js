@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',  // Vercel ke liye
+  base: process.env.GITHUB_ACTIONS ? '/3d_Portfolio/' : '/',
 
   build: {
     outDir: 'dist',
