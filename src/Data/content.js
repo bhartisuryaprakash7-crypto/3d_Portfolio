@@ -93,7 +93,7 @@ export const projects = [
     role: ' Frontend Developer',
     stack: ['HTML', 'CSS', 'React', 'Vite'],
     color: '#c33823',
-    links: { live: 'https://1drv.ms/p/c/611D6EE53D0B1F0C/IQDR2vaSj_LhRLiO441loTazASgiG_HQvqhgySVRlAvHmvU?e=phhsi5' }
+    links: { live: 'https://eventsphere-roan.vercel.app/' }
   },
 ]
 
